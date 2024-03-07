@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.first-div{
+    background: #1D1D1D;
+}
+
+.first-div-thir img, .first-div-thir2 img{
+    width: 20px;
+}
+
+.first-div-sec-div{
+    /* z-index: 10000; */
+    position: absolute;
+    left: 400px;
+}
+
+.first-div-thir2{
+    position: absolute;
+    right: 110px;
+    top: 25px;
+}
+
+.first-div-sec-div img{
+    width: 15px;
+}
+
+.first-div-sec-div01:hover img, .first-div-sec-div02:hover img, .first-div-sec-div03:hover img{
+    transform: rotate(180deg) !important;
+}
+
+.first-div-sec-div03-03{
+    background: #ffffff !important;
+    position: absolute;
+    left: 528px;
+    top: 50px;
+    width: 170px;
+    /* display: none; */
+}
+
+.first-div-sec-div03-03 span{
+    display: block;
+}
+
+.first-div-sec-div ul{
+    align-items: center;
+    transform: translate(-110px);
+}
+
+.first-div-sec-div li{      
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "avenir black" sans-serif;
+    color: #fffffe;
+}
+
+.first-div-sec-div li:hover, .first-div-thir03 a:hover{
+    color: #82E600 !important;
+}
+
+.first-div-thir01{
+    display: none;
+    position: absolute;
+    left: -190px;
+    top: 50px;
+    width: 450px;
+    background: #ffffff;
+    z-index: 100000;
+    border-radius: 5px;
+    height: 180px;
+}
+
+.sec-div-btn{
+    position: relative;
+    top: 250px !important;
+    left: 30px !important;
+    background: #4a4747 !important;
+    width: 50px !important;
+    height: 50px;
+    color: blue !important;
+    opacity: 0.7 !important;
+}
+
+.sec-div-btn02{
+    position: relative;
+    top: 250px !important;
+    left: 1170px !important;
+    background: #4a4747 !important;
+    width: 50px !important;
+    height: 50px;
+    color: blue !important;
+    opacity: 0.7 !important;
+}
+
+.first-div-thir1{
+    position: absolute;
+    right: 200px;
+    top: 25px;
+    height: 50px;
+}
+
+.first-div-thir3{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    height: 50px;
+}
+
+.first-div-thir1:hover .first-div-thir01, .first-div-thir3:hover .first-div-thir03{
+    display: block !important;
+}
+
+.first-div-thir01 input{
+    width: 400px;
+    padding: 8px 20px;
+    outline: none;
+    margin: 20px 0px 20px 20px;
+}
+
+.first-div-thir01 h4{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;
+    color: #111111;
+    margin: 0px 0px 30px 20px;
+}
+
+.first-div-thir031{
+    margin: 0px 0px 10px 200px;
+}
+
+.first-div-thir01 img{
+    position: relative;
+    left: -40px;
+}
+
+.first-div-thir03{
+    display: none !important;
+    width: 230px !important;
+    position: absolute;
+    left: -180px;
+    top: 50px;
+    width: 450px;
+    background: #ffffff;
+    z-index: 100000;
+    border-radius: 5px;
+}
+
+.first-div-thir03 a{
+    color: #111111 !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+}
+
+.first-div-li-fir a{
+    position: relative;
+    left: -46px;
+}
+
+.first-div-li-fir{
+    width: 70%;
+    border-bottom: 0.5px solid #7f7e7e !important;
+}
+
+.sec-div{
+    height: 560px;
+}
+
+.sec-div-image img{
+    width: 100% !important;
+    height: 560px !important;
+}
+
+.thir-div{
+    margin: 30px 0px 20px 0px;
+    padding: 10px 10px 10px 120px;
+}
+
+.four-div-ima01{
+    border-radius: 10px;
+    background-image: url(image/930-490.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 570px;
+}
+
+.four-div-ima02{
+    border-radius: 10px;
+    background-image: url(image/VCG211288602089.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 570px;
+}
+
+.four-div-sec-ima01{
+    border-radius: 10px;
+    background-image: url(image/ad-power.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 570px
+}
+
+.four-div-sec-ima02{
+    border-radius: 10px;
+    background-image: url(image/20231127-105044.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 570px;
+}
+
+.cards-wrapper{
+    display: flex !important;
+}
+
+.card{
+    margin: 10px;
+    width: calc(100%/3);
+}
+
+.five-div-fir-ul li, .seven-div-fir-ul li{
+    font-size: 19px;
+    font-weight: 700;
+    color: #111111;
+    font-family: "avenir black" sans-serif;
+}
+
+.five-div-d img, .seven-div-d img{
+    width: 20px;
+}
+
+.five-card-image-div img{
+    width: 18px;
+}
+
+.five-div-d span{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "avenir black" sans-serif;
+    color: #000000;
+}
+
+.five-div-btn001{
+    border: 2px solid rgb(92, 89, 89) !important;
+}
+
+/* .five-div-btn{
+    position: relative;
+    top: 250px !important;
+    left: 30px !important;
+    background: #4a4747 !important;
+    width: 50px !important;
+    height: 50px;
+    color: blue !important;
+    opacity: 0.7 !important;
+} */
+
+/* .five-div-btn02{
+    position: relative;
+    top: 250px !important;
+    left: 1170px !important;
+    background: #4a4747 !important;
+    width: 50px !important;
+    height: 50px;
+    color: blue !important;
+    opacity: 0.7 !important;
+} */
+
+.six-div{
+    background-image: url(image/new-arrival-l.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: contain;    
+    /* background-repeat: no-repeat;     */
+    /* background-position: center; */
+}
+
+.five-card-image-div span{
+    font-size: 11.5px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #000000;
+}
+
+.seven-strick-div, .five-strick-div{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #d8d7d7;
+}
+
+.seven-div-Ofstrick, .five-div-Ofstrick{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "avenir black" sans-serif;
+    color: #000000;
+}
+
+.seven-div-Ofstrick span, .five-div-Ofstrick span{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #3d3c3c;
+}
+
+.seven-div-btn, .five-div-btn{
+    transform: translate(0px, -25px);
+    display: none;
+}
+
+.seven-div-d:hover .seven-div-btn, .five-div-d:hover .five-div-btn{
+    display: block;
+}
+
+.seven-div-btn01, .five-div-btn01{
+    background: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    padding: 9px 16px;
+    color: #111111;
+}
+
+.seven-div-btn02, .five-div-btn02{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    padding: 9px 16px;
+    background: #111111;
+}
+
+.eight-div{
+    background-image: url(image/banner-wide-l.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nine-div{
+    background: #f5f6f6;
+}
+
+.nine-div h5{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;
+}
+
+
+.nine-div h6{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;;
+}
+
+.div, .div01, .div02, .div03{
+    background: #ffffff;
+}
+
+.div02{
+    height: 195px;
+}
+
+.div03{
+    height: 414px;
+}
+
+.nine-div-fir, .nine-div-sec, .nine-div-thir{
+    width: 420px;
+}
+
+.nine-div-fir01{
+    background-image: url(image/cs-women-s.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 410px;
+    width: 371.9px;
+    /* width: 420px; */
+}
+
+.nine-div-fir02{
+    background-image: url(image/cart-care-s.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 371.9px;
+}
+
+.nine-div-sec01{
+    background-image: url(image/1-year-warranty-s.png);
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 371.9px;
+}
+
+.nine-div-sec02{
+    background-image: url(image/free-shipping-s.png);
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 371.9px;
+}
+
+.nine-div-sec03{
+    background-image: url(image/point-s.png);
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 371.9px;
+    height: 191px;
+}
+
+.nine-div-thir01{
+    background-image: url(image/authenticity-&-best-price-s.png);
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 371.9px;
+}
+
+.nine-div-thir02{
+    background-image: url(image/Screenshot_2024-02-29_195522-removebg-preview.png);
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 371.9px;
+    background-position: 2px;
+}
+
+.nine-div-03{
+    width: 70%;
+}
+
+.nine-div-04{
+    width: 80%;
+}
+
+.nine-div-05{
+    width: 90%;
+    padding: 0px 30px 0px 0px;
+}
+
+.nine-div-06{
+    width: 70%;
+}
+
+.nine-div-07{
+    width: 80%;
+    position: relative;
+    top: -15px;
+}
+
+.ten-div-div img{
+    width: 40px;
+    transform: translate(0px, -5px);
+}
+
+.ten-div-ap{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;
+}
+
+.ten-divid{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+}
+
+.ten-divid span{
+    font-size: 20px !important;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+}
+
+.ten-div-div span{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;
+}
+
+.eleven-div-image{
+    display: flex;
+    margin: 30px 0px 30px 50px;
+}
+
+.eleven-div-image img{
+    width: 250px;
+    margin: 0px 50px 0px 0px;
+}
+
+.twelve-div h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;
+}
+
+.twelve-div p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #333333;
+}
+
+.twelve-div-div input{
+    width: 800px;
+    /* border: 2px solid red; */
+    outline: none;
+    padding: 12.5px 25px;
+    border: 1px solid;
+    border-radius: 30px 0px 0px 30px;
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+}
+
+.twelve-div-div span{
+    /* border: 2px solid red; */
+    padding: 12px 19px 14px;
+    border-radius: 0px 30px 30px 0px;
+    position: relative;
+    left: -25px;
+}
+
+.twelve-div-div img{
+    width: 30px;
+}
+
+.thirt-div{
+    background: #191919;
+
+}
+
+.thirt-div h4{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "avenir black" sans-serif;
+    color: #ffffff;
+}
+
+.thirt-div img{
+    width: 30px;
+}
+
+.thirt-div-img05 img{
+    width: 45px;
+}
+
+.fourteen-div{
+    background: #000000;
+}
+
+.fourteen-div-ul a{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    font-family: "avenir black" sans-serif;
+    color: #ffffff !important;
+}
+
+.fourteen-div-fir a{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #B3B3B3;
+}
+
+.fourteen-div-fir p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #ffffff;
+}
+
+.fivteen-div{
+    background: #191919;
+}
+
+.fivteen-div p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "avenir black" sans-serif;
+    color: #ffffff;
+}
+
+
+@media (max-width:480px) {
+    .first-div img{
+        width: 100px;
+    }
+    .first-div-thir1 img, .first-div-thir2 img, .first-div-thir img{
+        width: 15px !important;
+    }
+    .first-div-thir1{
+        position: absolute;
+        left: 210px;
+    }
+
+    
+    .four-div-ima01{
+    border-radius: 10px;
+    background-image: url(image/930-490.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 170px;
+    }
+
+    .four-div-ima02{
+    border-radius: 10px;
+    background-image: url(image/VCG211288602089.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 170px;
+    }
+
+    .four-div-sec-ima01{
+    border-radius: 10px;
+    background-image: url(image/ad-power.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 170px
+    }
+
+    .four-div-sec-ima02{
+    border-radius: 10px;
+    background-image: url(image/20231127-105044.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 170px;
+    }
+
+    .six-div{
+        background-image: url(image/new-arrival-l.jpg);
+        width: 100%;
+        height: 400px;
+        background-size: cover;    
+        background-repeat: no-repeat;
+        background-position: center;    
+    }
+
+    .eight-div{
+        background-image: url(image/banner-wide-l.jpg);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .nine-div h6{
+        font-size: 5.5px;
+        font-weight: 700;
+        font-family: "avenir black" sans-serif;
+    }
+    
+    .div, .div01, .div02, .div03{
+        background: #ffffff;
+    }
+    
+    .div02{
+        height: 100px;
+    }
+    
+    .div03{
+        height: 100px;
+    }
+    
+    /* .nine-div-fir, .nine-div-sec, .nine-div-thir{
+        width: 420px;
+    } */
+    
+    .nine-div-fir01{
+        background-image: url(image/cs-women-s.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 210px;
+        width: 170px;
+    }
+    
+    .nine-div-fir02{
+        background-image: url(image/cart-care-s.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 170px;
+    }
+    
+    .nine-div-sec01{
+        background-image: url(image/1-year-warranty-s.png);
+        /* background-position: center; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 170px;
+    }
+    
+    .nine-div-sec02{
+        background-image: url(image/free-shipping-s.png);
+        /* background-position: center; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 170px;
+    }
+    
+    .nine-div-sec03{
+        background-image: url(image/point-s.png);
+        /* background-position: center; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 170px;
+        height: 191px;
+    }
+    
+    .nine-div-thir01{
+        background-image: url(image/authenticity-&-best-price-s.png);
+        /* background-position: center; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 170px;
+    }
+    
+    .nine-div-thir02{
+        background-image: url(image/whatapp.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 170px;
+        transform: translate(0px, -20px);
+    }
+    
+    .nine-div-03{
+        width: 100%;
+    }
+    
+    .nine-div-04{
+        width: 80%;
+    }
+    
+    .nine-div-05{
+        width: 100%;
+    }
+    
+    .nine-div-06{
+        width: 70%;
+    }
+    
+    .nine-div-07{
+        width: 100%;
+        transform: translate(0px, 18px);
+    }
+}
